@@ -9,8 +9,8 @@ import requests
 # 🔔 TELEGRAM FUNCTION
 def send_telegram_message(message):
 
-    BOT_TOKEN = "8799152318:AAHseGHU2bnJY69Jy1e1v07f7rvuScNFvzI"
-    CHAT_ID = "1256691399"
+    BOT_TOKEN = "your both token"
+    CHAT_ID = "your chat id"
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
